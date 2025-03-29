@@ -21,3 +21,7 @@ const bikes = [
   
   console.log(bikes);
   
+  //Cercare bici con peso minore
+  let minWeigth = bikes[0].weigth;
+  let lightest = '';
+
