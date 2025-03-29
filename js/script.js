@@ -69,6 +69,17 @@ const teams = [
         name: "Boca Juniors",
         point: 0,
         foulsSuffered: 0
+    },
+    {
+        name: "Ajax",
+        point: 0,
+        foulsSuffered: 0
     }
 ]
+
+//Funzione per generare numeri random
+function randNum(max){
+    return Math.floor(Math.random()*(max+1))
+}
+
 
