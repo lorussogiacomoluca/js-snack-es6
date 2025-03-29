@@ -25,3 +25,11 @@ const bikes = [
   let minWeigth = bikes[0].weigth;
   let lightest = '';
 
+  //Ciclo FOR
+  for(let i = 0; i < bikes.length; i++){
+    if(bikes[i].weigth < minWeigth){
+        minWeigth = bikes[i].weigth;
+        lightest = bikes[i]
+    }
+  }
+
