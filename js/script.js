@@ -19,17 +19,19 @@ const bikes = [
         weigth: 6.6 }
   ];
   
-  console.log(bikes);
-  
-  //Cercare bici con peso minore
-  let minWeigth = bikes[0].weigth;
-  let lightest = '';
+console.log(bikes);
 
-  //Ciclo FOR
-  for(let i = 0; i < bikes.length; i++){
-    if(bikes[i].weigth < minWeigth){
-        minWeigth = bikes[i].weigth;
-        lightest = bikes[i]
-    }
+//Cercare bici con peso minore
+let minWeigth = bikes[0].weigth;
+let lightest = '';
+
+//Ciclo FOR
+for(let i = 0; i < bikes.length; i++){
+  if(bikes[i].weigth < minWeigth){
+      minWeigth = bikes[i].weigth;
+      lightest = bikes[i]
   }
+}
 
+//Stampare risultati
+console.log(`La bici che pesa meno è ${lightest.name} e pesa soltanto ${lightest.weigth} kg!`);
