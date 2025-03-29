@@ -1,3 +1,4 @@
+//Snack 1: Bikes
 const bikes = [
     { 
         name: "Tarmac SL7",
@@ -35,3 +36,39 @@ for(let i = 0; i < bikes.length; i++){
 
 //Stampare risultati
 console.log(`La bici che pesa meno è ${lightest.name} e pesa soltanto ${lightest.weigth} kg!`);
+
+//Snack 2: Football Teams
+
+const teams = [
+    {
+        name: "AC Milan",
+        point: 0,
+        foulsSuffered: 0
+    },
+    {
+        name: "Real Madrid",
+        point: 0,
+        foulsSuffered: 0
+    },
+    {
+        name: "Liverpool",
+        point: 0,
+        foulsSuffered: 0
+    },
+    {
+        name: "Paris Saint-German",
+        point: 0,
+        foulsSuffered: 0
+    },
+    {
+        name: "Dortumund",
+        point: 0,
+        foulsSuffered: 0
+    },
+    {
+        name: "Boca Juniors",
+        point: 0,
+        foulsSuffered: 0
+    }
+]
+
