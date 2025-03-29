@@ -82,4 +82,11 @@ function randNum(max){
     return Math.floor(Math.random()*(max+1))
 }
 
+//Assegnare valori casuali alle variabili
+for(let i = 0; i<teams.length; i++){
+    let maxPoints = 90;
+    let maxFouls = 150
+    teams[i].point = randNum(maxPoints)
+    teams[i].foulsSuffered = randNum(maxFouls)
+}
 
