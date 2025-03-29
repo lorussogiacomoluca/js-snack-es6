@@ -90,3 +90,14 @@ for(let i = 0; i<teams.length; i++){
     teams[i].foulsSuffered = randNum(maxFouls)
 }
 
+const teamsNameFouls = []
+
+for(let i = 0; i<teams.length; i++){
+    teamsNameFouls.push({
+        name: teams[i].name,
+        foulsSuffered: teams[i].foulsSuffered
+    })
+
+}
+
+console.log(teamsNameFouls);
